@@ -586,7 +586,7 @@ img {
     margin-bottom: 37px;
     max-width: 66px;
 }
-.benefits__card-pic-temple {
+.benefits__card-pic-thumb {
     /* чтобы избежать
     отступ снизу */
     display: block;
@@ -647,4 +647,14 @@ img {
 .places__view-all:hover,
 .places__view-all:focus {
     opacity: 0.6;
+}
+
+.places__cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.places__card-size-lg {
+    grid-column: span 3;
 }
