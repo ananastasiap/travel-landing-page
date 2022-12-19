@@ -424,6 +424,29 @@ img {
     margin: 0 auto;
 }
 
+.wrapper-large {
+    max-width: 1262px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title:after {
+    display: block;
+    content: '';
+    width: 253px;
+    height: 3px;
+    background-color:#006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 /*! HEADER */
 .header {
     position: fixed;
@@ -595,4 +618,33 @@ img {
 .benefits__card-link:hover,
 .benefits__card-link:focus {
     background: url(../img/svg/arrow.svg) no-repeat right center;
+}
+
+/*! PLACES */
+.places__caption {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 36px;
+    justify-content: space-between;
+}
+
+.places__view-all {
+    display: inline-block;
+    padding-right: 59px;
+    line-height: 24px;
+    color: #006DFE;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: url(../img/svg/arrow.svg) no-repeat 95% center;
+    transition: .2s all;
+}
+
+.places__title {
+    margin-right: 15px;
+}
+
+.places__view-all:hover,
+.places__view-all:focus {
+    opacity: 0.6;
 }
