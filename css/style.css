@@ -786,6 +786,11 @@ img {
     gap: 58px 52px;
 }
 
+.top-places__card {
+    display: flex;
+    flex-direction: column;
+}
+
 .top-places__card-pic {
     position: relative;
     margin-bottom: 45px;
@@ -843,6 +848,8 @@ img {
     background-color: #006DFE;
     padding: 12px 19px;
     text-decoration: none;
+    width: 118px;
+    margin: auto 0 0 0;
 }
 
 .top-places__card-btn:hover,
