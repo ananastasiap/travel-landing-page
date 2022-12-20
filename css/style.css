@@ -621,6 +621,10 @@ img {
 }
 
 /*! PLACES */
+.places {
+    margin-bottom: 131px;
+}
+
 .places__caption {
     display: flex;
     flex-wrap: wrap;
