@@ -820,13 +820,14 @@ img {
 
 .top-places__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 58px 52px;
 }
 
 .top-places__card {
     display: flex;
     flex-direction: column;
+    grid-column: span 2;
 }
 
 .top-places__card-pic {
@@ -1025,6 +1026,24 @@ img {
         font-size: 42px;
         line-height: 48px;
     }
+
+    .intro {
+        padding-top: 150px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .search-form__field {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .benefits__card {
+        grid-column: span 3;
+    }
 }
 
 /* 960 - break point */
@@ -1071,7 +1090,28 @@ img {
     }
 
     .tour__title {
-        margin-bottom: 35px;
+        margin-bottom: 15px;
+    }
+
+    .tour__decs {
+        margin-bottom: 15px;
+    }
+
+    .top-places__cards {
+        column-gap: 25px;
+        row-gap: 55px;
+    }
+
+    .top-places__card {
+        grid-column: span 3;
+    }
+
+    .top-places__card-pic {
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        padding: 55px;
     }
 
 }
