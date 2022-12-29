@@ -1,4 +1,5 @@
 'use strict';
+
 // самовызывающаяся функция
 (function () {
   const header = document.querySelector('.header');
