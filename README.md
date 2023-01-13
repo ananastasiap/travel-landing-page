@@ -5,8 +5,9 @@
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 Web page layout for traveling to interesting, outstanding and memorable places in Japan.
-### Figma layout:
-[Travel langing page](www.figma.com/file/ClPSP7KCU1NbvxMXA914hlFk/travel-landing-page-jacobvoyles?node-id=0%3A1)
+<br>
+<br>
+### Figma layout: [Travel langing page](www.figma.com/file/ClPSP7KCU1NbvxMXA914hlFk/travel-landing-page-jacobvoyles?node-id=0%3A1)
 
 ### Preview
 ![travel-layout](./img/travel-layout.png)
