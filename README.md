@@ -7,7 +7,7 @@
 Web page layout for traveling to interesting, outstanding and memorable places in Japan.
 <br>
 <br>
-### Figma layout: [Travel landing page](www.figma.com/file/ClPSP7KCU1NbvxMXA914hlFk/travel-landing-page-jacobvoyles?node-id=0%3A1)
+### Figma layout: [Travel landing page](https://www.figma.com/file/ClPSP7KCU1NbvxMXA914hlFk/travel-landing-page-jacobvoyles?node-id=0%3A1&t=QE8hrtV0L8pO4OV1-1)
 
 ### Preview
 ![travel-layout](./img/travel-layout.png)
